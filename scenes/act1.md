@@ -59,19 +59,19 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: 僕たちをまたボールみたいにして泣かせるよ！！
+b: プレーヤーが僕たちをまたボールみたいにして泣かせるよ！！
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: プレーヤーが君に発作を起こして君の携帯をぶち殺すよ！！
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: プレーヤーが僕たちがパーティーのホストを殴ら*ない*ようにさせるよ！！
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: 
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
