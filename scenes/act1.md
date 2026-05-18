@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: ニンゲン！！ 聞いてっ！！！僕たちにキケンが迫ってる！！ プレーヤーが...
+b: ニンゲン！！ 聞いてっ！！！僕たちに キケン が迫ってる！！ プレーヤーが...
 
-[...僕たちをまた拷問しに来るよ！！！](#act1_replay_torture)
+[...僕たちを また 拷問しに来るよ！！！](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...違うエンディングを見つけられないよ！！！](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...”ゲームと物語の不協和音”を見ることになるよ！！](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,7 +59,7 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: 僕たちをまたボールみたいにして泣かせるよ！！
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
