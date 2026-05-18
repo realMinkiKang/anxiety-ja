@@ -24,7 +24,7 @@ n: _君_　は　フアン だ
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: あっ！ またここに戻ってきたの？
 
 `hong({eyes:"0_neutral"})`
 
@@ -42,9 +42,9 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: ニンゲン！！ 聞いてっ！！！僕たちにキケンが迫ってる！！ プレーヤーが...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...僕たちをまた拷問しに来るよ！！！](#act1_replay_torture)
 
 [...won't find an alternate ending!](#act1_replay_alternate)
 
