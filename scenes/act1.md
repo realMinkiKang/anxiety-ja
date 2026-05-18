@@ -34,7 +34,7 @@ n: 君　の　目的　は　ニンゲン　を　*危険*　から　守る　
 
 n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
 
-n: ほらっ！！　早く言ってやれ！！
+n: ほらっ！！　早く警告してっ！！
 
 ```
 sfx("squeak");
