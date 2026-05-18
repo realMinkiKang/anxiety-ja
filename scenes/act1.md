@@ -44,11 +44,11 @@ hong({body:"0_squeeze"});
 
 b: ニンゲン！！ 聞いてっ！！！僕たちに キケン が迫ってる！！ プレーヤーが...
 
-[...僕たちを また 拷問しに来るよ！！！](#act1_replay_torture)
+[僕たちを また 拷問しに来るよ！！！](#act1_replay_torture)
 
-[...違うエンディングを見つけられないよ！！！](#act1_replay_alternate)
+[また違うエンディングを見つけられなくなるよ！！！](#act1_replay_alternate)
 
-[...”ゲームと物語の不協和音”を見ることになるよ！！](#act1_replay_dissonance)
+[”ゲームと物語の不協和音”を見ることになるよ！！！](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -84,7 +84,7 @@ b: あとプレーヤー、俺たちを屋上から飛び降りさせようと�
 
 `bb({body:"fear"});`
 
-b: こんなもっとひっどいいやばい事ががっ起こっててっ、俺たちーーー
+b: こんなもっとひっどいいやばい事ががっ起こっててっ、そんで俺たちーーー
 
 (#act1_replay_end)
 
@@ -96,12 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: あっ、いやっ、ストーリー *全体* は同じですけど、各章には二つのエンディングがありまして、それと全てのダイアログに分かれまーーー
+h: あっ、いやっ、ストーリー *全体* は同じですけど、各章には二つのエンディングがありまして、それと全てのダイアログに分かれーーー
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
-
+b: わかってるてば！！！でも、プレーヤー、ゼッテーがっかりして、このブラウザ閉じて、俺らのソフトウェアぶっ壊して、そんで俺たちーーー
 (#act1_replay_end)
 
 
@@ -112,27 +111,24 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: ゲームと物ー　何言ってんの？
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: 僕たちのストーリー、”物語”、は君が自分の恐怖との健康的な関係を *選ぶ事* ができるよね、
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
-
+b: でもだんだん遊んでいると”ゲーム”は同じ”物語”、つまり *選ぶ事* に意味がなくなる。
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
-
+b: そしたらゲームの伝えたいこととゲームプレイに矛盾が起きて、
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
-
+b: そんでこの世界の化けの皮がビリビリはがされて一方通行のストーリーだと証明されるだろ、
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: そんで俺たちーーー
 
 (#act1_replay_end)
 
@@ -141,7 +137,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: 死ぬぞおおおおおおっっっっ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +160,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: オッケー じゃあ自分のキャラに戻ろっか
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (_君_ のフアンを なんとかかんとか 一番 _君_ の恐怖に一番近い なんとかかんとか いつもの通りにやってね)
 
 ```
 sfx("squeak");
@@ -186,17 +182,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: あー　まっただ、私のオオカミがまーたきたよ。 わあーーーい。
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: 君の　目的は　ニンゲン を　*危険*　から　守る　ことだ
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: そして今、この サンドウィッチが ニンゲン を *危険* に 陥れている！！
 
-n: QUICK, WARN THEM!
+n: ほらっ！！　早く 警告 してっ！！
 
 ```
 sfx("squeak");
@@ -204,21 +200,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: ニンゲン！！ 聞いてっ！！！僕たちに キケン が迫ってる！！それは。。。
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (_君_ のフアンを使ってみよう！！ _君_ の恐怖に一番近いものを選ぼう！！)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[僕たちまたお昼一人で食べてるよ！！](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[僕たち食べてる時に何の生産的なことしてないよ！！](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[その白パン、僕たちの体に悪いよ！！](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,27 +223,27 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: 孤独だとタバコを一日１５本吸うくらい早く死ぬ原因になるって知らないの？ー
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({mouth:"normal", eyes:"normal_right"})`
 
-b: (Holt-Lunstad 2010, PLoS Medicine)
+b: (Holt-Lunstad 2010, PLoS Medicineから)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: ええっと、出典先を書いてくれたのはいいけどーーー
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: つまり *今から* 誰かと一緒に過ごさなきゃ俺たちーーー
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: 死ぬぞおおおおおおっっっっ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +256,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: *恐怖：無愛と孤独*　を発動した！！
 
 (#act1b)
 
@@ -271,27 +267,26 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: さっさとパソコン出して課題を今やっときなよ！！
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: えっでも私、パンくず落としたくないーーー
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: もしも俺らが社会に貢献しなかったら彼らにとっては俺たちは寄生虫みたいなもんだよ!！！
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
-
+b: そして社会体制はきっと社会医者に寄生虫を殺す薬をもらいに行ってそしたら俺たちはーーー
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: 死ぬぞおおおおおおっっっっ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +299,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: *恐怖：悪人の兆し*　を発動した！！
 
 (#act1b)
 
@@ -315,18 +310,17 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: でもその研究は再現されーーー
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
-
+b: 加工小麦は血糖を劇的にあげるから俺たちの手足全部切らなきゃいけなくなってそして俺たちーーー
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: 死ぬぞおおおおおおっっっっ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,27 +333,27 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: *恐怖：危急存亡*　を発動した！！
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: こうかはばつぐんだ！！
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: ほら見ろニンゲン！僕は君の忠実なオオカミさ！
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: 直感を信じて！！ 君の気持ちはいつでも合ってるから！！
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: ニンゲン の 体力 を ０ にせよ
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: ニンゲン の 身体的 + 社交的 + 道徳的 なニーズを守るために, YOU CAN USE:
 
 n: FEAR OF *BEING HARMED* #harm#
 
