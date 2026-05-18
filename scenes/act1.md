@@ -6,7 +6,7 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: そして こいつ は ニンゲン の フアン　だ
 
 n: _YOU_ ARE THE ANXIETY
 
