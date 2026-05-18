@@ -67,24 +67,24 @@ b: プレーヤーが君に発作を起こして君の携帯をぶち殺すよ�
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: プレーヤーが僕たちがパーティーのホストを殴ら*ない*ようにさせるよ！！
+b: プレーヤーが僕たちにパーティーのホストを殴ら*ない*ようにするよ！！
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: 
+b: プレーヤーが僕たちに同情を誘うアンチヴィランのパーティーのホストを殴らせる気だよ！！
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: いやでも屋上から飛び降りるとかはもうしないと思うからーーー
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: あとプレーヤー、俺たちを屋上から飛び降りさせようとしてるぞ。
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: こんなもっとひっどいいやばい事ががっ起こっててっ、俺たちーーー
 
 (#act1_replay_end)
 
@@ -96,7 +96,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: あっ、いやっ、ストーリー *全体* は同じですけど、各章には二つのエンディングがありまして、それと全てのダイアログに分かれまーーー
 
 `bb({body:"fear"});`
 
