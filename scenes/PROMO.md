@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: こいつ　は　ニンゲンだ
+n2: こいつ は　ニンゲン だ
 
 (...600)
 
@@ -73,7 +73,7 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: 君　の　目的　は　ニンゲン　を　*危険*　から　守る　ことだ
+n: 君の　目的は　ニンゲン　を　*キケン*　から　守ることだ
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
@@ -87,7 +87,7 @@ h: あーあ。。。なんで私ってもっと自分の感情の事ちゃん�
 
 `hong({eyes:"neutral"});`
 
-n: ほらっ！！　早く *危険*　って　警告　してっ！！！！
+n: ほらっ！！　早く *キケン*　って　警告　してっ！！！！
 
 ```
 bb({eyes:"look"});
