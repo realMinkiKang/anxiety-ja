@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: そしたら始める前に、 *君* はこのお話をどんな風に読んで欲しい？
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Now, let's begin our story...
+n3: それじゃあ、始めようか。。。
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: こいつ　は　ニンゲンだ
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: そして こいつ は ニンゲン の フアン　だ
 
-n: _YOU_ ARE THE ANXIETY
+n: _君_　は　フアン　だ
 
 (#act1_normal)
 
@@ -66,45 +66,44 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: アー　アーアー　キイテマセンー　もう　うるさいな。。。 携帯でも見とこ。
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: 君　の　目的　は　ニンゲン　を　*危険*　から　守る　ことだ
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gasp! You're scrolling your life away on Twitter! Again!
-
+b: あっ！！　またまたツイッターで人生逃避してる！！　これで何回目？！
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Yeah I wonder why I don't just sit and listen to my thoughts more often.
+h: あーあ。。。なんで私ってもっと自分の感情の事ちゃんと聞かないんだろう。。。
 
 `hong({eyes:"neutral"});`
 
-n: QUICK, WARN THEM ABOUT A *DANGER!*
+n: ほらっ！！　早く *危険*　って　言って　あげて！！！！
 
 ```
 bb({eyes:"look"});
 ```
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[見ろ見ろ！！ こんな最悪なニュースが出てる！！](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[待て！！ そのツイート *僕たち* のことじゃないか？！](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[おいっ 猫がミルクを飲んでるGIFがあるぞっ](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Heh ya that's cute, I--
+h: これ？そうだね、可愛いよね。 私ーーー
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +111,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: 猫はミルクを消化できねーんっだよ！！！ だから俺らは動物虐待を楽しんでいる　サイテーな　奴らなんだよ！！！
 
 (...200)
 
