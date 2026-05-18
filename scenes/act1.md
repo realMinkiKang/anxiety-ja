@@ -8,7 +8,7 @@ SceneSetup.act1();
 
 n: そして こいつ は ニンゲン の フアン　だ
 
-n: _YOU_ ARE THE ANXIETY
+n: _君_　は　フアン　だ
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
