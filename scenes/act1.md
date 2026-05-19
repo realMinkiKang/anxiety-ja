@@ -377,7 +377,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: あのさ、もういい。とりあえず携帯でもみよ。
+h: あのさ、もういい。...とりあえず携帯でもみよ。
 
 ```
 sfx("rustle2");
@@ -441,11 +441,11 @@ b: タバコ十五本分だぞニンゲン！！ 十五本分！！！
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Then no one will show up at our funeral, they'll dump our ashes into the ocean, we get eaten by a whale,
+b: そしたら僕たちのお葬式誰も来なくなって、僕たちの灰を海にばら撒いて、そしてクジラに食べられて...
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: and we become WHALE POOP!
+b: そんで僕たち、クジラのう◯こになっちゃうよ！
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -462,7 +462,7 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah we should go to that party!
+b: だから僕たち絶対そのパーティーに行かなきゃいけないよ！！
 {{/if}}
 
 {{if _.parasite}}
