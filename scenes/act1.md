@@ -42,11 +42,11 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: ニンゲン！！ 聞いてっ！！！僕たちに キケン が迫ってる！！ プレーヤーが...
+b: ニンゲン！！ 聞いてっ！！！僕たちに キケン が迫ってる！！ プレーヤーは...
 
 [僕たちを また 拷問しに来るよ！！！](#act1_replay_torture)
 
-[また違うエンディングを見つけられなくなるよ！！！](#act1_replay_alternate)
+[もう違うエンディングを見つけられないよ！！！](#act1_replay_alternate)
 
 [”ゲームと物語の不協和音”を見ることになるよ！！！](#act1_replay_dissonance)
 
@@ -278,7 +278,7 @@ bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: もしも俺らが社会に貢献しなかったら彼らにとっては俺たちは寄生虫みたいなもんだよ!！！
+b: もしも俺らが社会に貢献しなかったら彼らにとっては俺たちは寄生虫みたいなもんだ!！！
 
 b: そして社会体制はきっと社会医者に寄生虫を殺す薬をもらいに行ってそしたら俺たちはーーー
 ```
@@ -310,7 +310,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: でもその研究は再現されーーー
+h: でもその研究は実際に再ーーー
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
@@ -353,17 +353,17 @@ b: 直感を信じて！！ 君の気持ちはいつでも合ってるから！�
 
 n: ニンゲン の 体力 を ０ にせよ
 
-n: ニンゲン の 身体的 + 社交的 + 道徳的 なニーズを守るために, YOU CAN USE:
+n: ニンゲン の 身体的 + 社交的 + 道徳的 なニーズを守るために、 
 
-n: FEAR OF *BEING HARMED* #harm#
+n: 恐怖：*危急存亡* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: 恐怖：*無愛と孤独* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: 恐怖：*悪人の兆し*　の３つの技を使おう！！ #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (PRO-TIP:　自分的に一番ブッ刺さるチョイスを選んでね〜)
 
 h: ...
 
@@ -377,18 +377,18 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: あのさ、もういい。とりあえず携帯でもみよ。
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: ニンゲンを守れ。
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: 世界から。他人から。そしてニンゲン自身からも。
 
-n: GOOD LUCK
+n: ...幸運を祈る。
 
 (...500)
 
@@ -406,34 +406,34 @@ n: ROUND ONE: *FIGHT!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: あっ、 Facebookで週末パーティーやるよーって言ってる。
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: でもその変人野郎、*毎週末* パーティーやってないか？
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: あいつ一体どんな心の穴を埋めようとしてるんだ？絶対心の中めちゃくちゃだよ！
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: えーっと、えっ？！私も誘われてる？
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Well then!
+b: ふーん、それじゃあ...
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[OKって言おう！そうしないと一人ぼっちで死んじゃうよ！！](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[断ろう！麻薬薬物大量のところだぞ！！](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[無視しよう。居てもパーティーを台無しにしちまう。](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Fifteen cigarettes a day, human! Fifteen!
+b: タバコ十五本分だぞニンゲン！！ 十五本分！！！
 {{/if}}
 
 {{if !_.fifteencigs}}
