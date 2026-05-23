@@ -223,7 +223,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: 孤独だとタバコを一日１５本吸うくらい早く死ぬ原因になるって知らないの？ー
+b: 孤独だとタバコを一日15本吸うくらい早く死ぬ原因になるって知らないの？ー
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -351,7 +351,7 @@ b: 直感を信じて！！ 君の気持ちはいつでも合ってるから！�
 
 `bb({body:"pride"});`
 
-n: ニンゲン の 体力 を ０ にせよ
+n: ニンゲン の 体力 を 0 にせよ
 
 n: ニンゲン の 身体的 + 社交的 + 道徳的 なニーズを守るために、 
 
@@ -377,7 +377,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: あのさ、もういい。...とりあえず携帯でもみよ。
+h: あのさ、もういい。とりあえず携帯でもみよ。
 
 ```
 sfx("rustle2");
@@ -410,7 +410,7 @@ h: あっ、 Facebookで週末パーティーやるよーって言ってる。
 
 `bb({eyes:"uncertain"});`
 
-b: でもその変人野郎、*毎週末* パーティーやってないか？
+b: でもその変態野郎、*毎週末* パーティーやってないか？
 
 `bb({eyes:"uncertain_right"});`
 
@@ -433,7 +433,7 @@ b: ふーん、それじゃあ...
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: タバコ十五本分だぞニンゲン！！ 十五本分！！！
+b: タバコ15本分だぞニンゲン！！ 15本分！！！
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -441,11 +441,10 @@ b: タバコ十五本分だぞニンゲン！！ 十五本分！！！
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: そしたら僕たちのお葬式誰も来なくなって、僕たちの灰を海にばら撒いて、そしてクジラに食べられて...
-{{/if}}
+b: もしも一人ぼっちだったら、僕たちのお葬式誰も来なくなって、僕たちの灰を海にばら撒いて、そしてクジラに食べられて... {{/if}}
 
 {{if !_.fifteencigs}}
-b: そんで僕たち、クジラのう◯こになっちゃうよ！
+b: そんで僕たち、クジラの^うんこ^になっちゃうよ！
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -466,21 +465,21 @@ b: だから僕たち絶対そのパーティーに行かなきゃいけない�
 {{/if}}
 
 {{if _.parasite}}
-b: Just bring the laptop so we can do work, and not be a society-parasite.
+b: 社会的寄生虫にならないようにパソコンだけは持ってこう。
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD
+b: 白パン さえ出なかったら大丈夫だね！
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: ああもう！　黙るんだったらもういいよ...
 
-h: I'll say yes.
+h: OKっていうよ。
 
 {{if _.whalepoop}}
-b: Whale poop, human! Whale poop!
+b: クジラの^うんこ^だぞニンゲン！ クジラの^うんこ^！
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -492,7 +491,7 @@ b: Whale poop, human! Whale poop!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: or even worse... WHITE BREAD
+b: もっとひどくて... 白パン だ！！
 {{/if}}
 
 {{if _.whitebread}}
@@ -500,11 +499,11 @@ b: or even worse... WHITE BREAD
 {{/if}}
 
 {{if _.whitebread}}
-b: We'll overdose on so much meth and white bread they won't be able to fit our fat corpse into the cremation furnace!
+b: 僕たち、覚醒剤と白パンやりまくって、それで僕たちの太っちょパンパンの死体を火葬炉にいれられなくなるよ！！
 {{/if}}
 
 {{if !_.whitebread}}
-b: We'll overdose on so many drugs the undertaker will wonder how our body was *already* pre-embalmed!
+b: 僕たち薬物いっぱいやりすぎて、葬儀屋さんは何で *もう* 防腐処理済みかと思っちゃうよ！
 {{/if}}
 
 ```
@@ -515,14 +514,14 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Besides, can't party, we need to do work or we're a terrible society-parasite!
+b: それに、パーティーなんかしてないで仕事をしなきゃ、僕たちダメダメな社会的寄生虫だよ！！
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: ああもう！　黙るんだったらもういいよ...
 
-h: I'll say no.
+h: 断るっていうよ。
 
 `_.partyinvite="no"`
 
@@ -535,15 +534,15 @@ h: I'll say no.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: All we ever do is cry in a corner about how loneliness is as deadly as 15 cigarettes a day.
+b: 僕たちなんか、部屋の角っこで、孤独だと１日にタバコ15本吸うくらい危険なんだって嘆いてるだけだよ。
 {{/if}}
 
 {{if _.parasite}}
-b: All we ever do at parties is worry about how we should be productive instead.
+b: 僕たちなんか、パーティーにいんのになんで生産的に過ごせていないか心配してるだけだよ。
 {{/if}}
 
 {{if _.whitebread}}
-b: All we ever do is worry about how the unhealthy food options are going to kill us.
+b: 僕たちなんか、不健康な食べ物を食べたら死んじまうって心配してるだけだよ。
 {{/if}}
 
 ```
@@ -551,19 +550,19 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: gee i wonder why.
+h: へー　何でだろうねー
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: So if we go we'll make them feel bad, but if we reject their invite we'll also make them feel bad!
+b: パーティーに行ってもみんなの気分を悪くするし、でもそれを断っても誘った人の気分を悪くするよ！！
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: ALL WE DO IS MAKE PEOPLE FEEL BAD, SO WE SHOULD FEEL BAD
+b: 俺たちみんなの気分を悪くしてるから、俺たちも申し訳ないと思わなきゃダメだろ！！！
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -574,9 +573,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. If it'll make you shut up, fine.
+h: ああもう！　黙るんだったらもういいよ...
 
-h: I'll ignore the invite.
+h: 無視するよ。
 
 `_.partyinvite="ignore"`
 
@@ -589,19 +588,19 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Anyway. Facebook's too much. I need something calmer, less anxiety-producing.
+h: とにかくFacebookにはもううんざり。もうちょっと落ち着いて、もっと... フアン にならないのを見よ。
 
 `hong({eyes:"neutral"});`
 
-h: What's new on Twitter?
+h: ツイッターでは何してるかな〜？
 
 `bb({eyes:"look"});`
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[見ろ見ろ！！ こんな最悪なニュースが出てる！！](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[待て！！そのツイート *僕たち* のことじゃないか？！](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[おいっ 猫がミルクを飲んでるGIFがあるぞっ](#act1d_milk)
 
 
 # act1d_news
@@ -611,14 +610,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: God, it feels like the world's burning, isn't it?
+b: ああ... 世界がめちゃくちゃに燃えてるようだ...
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: It feels like it's all ending, like everything's dying and we're doomed and there's nothing we can do about it.
+b: 全てが終わってるように感じて...全てが死んでいって...僕たちは絶望の中に取り残されて何にもできない...
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -629,7 +628,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Let's retweet that story!
+b: それ、リツイートしよっか！！
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -647,11 +646,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Okay I'll retweet it just please be quiet!
+h: わかった！わかったから！リツイートするから静かにして！！
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Screw it, let's look at Snapchat.
+h: もう...スナップチャットでも見るか。
 
 (#act1e)
 
@@ -660,35 +659,35 @@ h: Screw it, let's look at Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: It's a subtweet! A sneaky, sneaky subtweet!
+b: サブツイートだ！！！ひっそり隠れてる邪悪なサブツイだ！！！
 
 `hong({eyes:"annoyed"});`
 
-h: It's probably not?
+h: そうじゃないかもよ？
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but what if they're all talking behind our back
+b: でもそれが僕たちの陰口だったらどうする
 
-h: They're n--
+h: だから違ーーー
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
-b: IN FRONT OF OUR BACK
+b: 陰口だったらどうするの？！
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: I d--
+h: だかーーー
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but *what if*
+b: でも*もしも*
 
-h: S--
+h: そーーー
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *what if*
+b: *もしも*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -713,7 +712,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: わーかったから...スナップチャットでも見るか。
 
 (#act1e)
 
@@ -721,7 +720,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh ya that's cute, just retweeted it, I thi--
+h: これ？そうだね、可愛いよね。さっきリツイートしたよ！ 私ーーー
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -729,7 +728,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: 猫はミルクを消化できねーんっだよ！！！ だから俺らは動物虐待を楽しんでいる　サイテーな　奴らなんだよ！！！
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -746,7 +745,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: わーかったから！...　スナップチャットでも見るか。
 
 (#act1e)
 
@@ -754,7 +753,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, photos from yesterday night. So *that's* what those weekly parties are like.
+h: あ、昨日の夜の写真だ。毎週末のパーティー、*こんな感じ*なんだ。
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -766,29 +765,29 @@ h: Huh, photos from yesterday night. So *that's* what those weekly parties are l
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, looks way too crowded for my anxiety.
+h: うわっ...やっぱりめっちゃ人がいるよ...
 
-h: Maybe I shouldn't have said yes to the invite?
+h: OKって言わなきゃよかったなかな？
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Change our answer? Like a jerk?!](#act1e_yes_dontchange)
+[答え変えるの？ 嫌なやつ〜！！](#act1e_yes_dontchange)
 
-[Change our answer! It's too crowded!](#act1e_yes_changetono)
+[答えを変えよう！ 人がいっぱいすぎるよ！！](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[うん。めっちゃ陰口言われたたね。](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[ちょっと待って、事実確認しないでリツイートしちゃった。](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[そういえば君、めっちゃ姿勢悪いよ。](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -798,14 +797,14 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: They were counting on us to come and now we're betraying their trust? Do you wanna die alone?!
+b: みんなパーティーに来てくれるって期待してたのに僕たちはみんなの信頼を裏切るんだよ？孤独死したいの？！
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: タバコ。　一日15本分。　
 {{/if}}
 
 {{if _.whalepoop}}
-b: WHALE. POOP.
+b: クジラの。　^うんこ^。
 {{/if}}
 
 ```
@@ -820,7 +819,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as yes!
+h: うるさいうるさいわかった！！OKにしとくからっ！！
 
 (#act1f)
 
@@ -831,15 +830,14 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Don't you know about human stampedes?
-
+b: 群衆雪崩って知ってる？
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
 hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: In 2003 a Rhode Island nightclub had a fire and the panic made people jam the exits so 100 people burned to death-
+b: 2003年、ロードアイランド州のナイトクラブで火事が起こって、みんながパニックで出口を塞いだから100人が焼死してーーー
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -847,14 +845,14 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DO YOU WANT THAT TO HAPPEN TO US-
+b: そんなこと 俺らに 起こって ほしい？！？！ーーー
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY N-
+b: 断れ断れ断れ断れ断れ断れ断れ断れ断れ断れ断れ断れ断れ断ーー
 
 
 ```
@@ -870,43 +868,42 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to no! God!
-
+h: うるさいうるさいわかった！！断っとくから！！もう！！
 (#act1f)
 
 # act1e_said_no
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: うーん...でもめっちゃ楽しそう...
 
-h: Maybe I shouldn't have said no to the invite?
+h: やっぱり断らなきゃよかったかな？
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Change our answer? Like a jerk?!](#act1e_no_dontchange)
+[答え変えるの？ 嫌なやつ〜！！](#act1e_no_dontchange)
 
-[Change our answer! Don't die alone!](#act1e_no_changetoyes)
+[答えを変えよう！ 孤独死しないで！！](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[うん。めっちゃ陰口言われたたね。](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[ちょっと待って、事実確認しないでリツイートしちゃった。](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[そういえば君、めっちゃ姿勢悪いよ。](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
 
 `bb({eyes:"anger"})`
 
-b: Everybody was counting on us!
+b: みんなは期待してたんだよ！！
 
-b: ...to leave them alone and let them have a nice party without a horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} creep like u--
+b: 楽しいパーティーをキモくて最悪な{{if _.whitebread}}白パンくちゃくちゃ食べる{{/if}}お前みたいな変態に関わらないで欲しかっーーー
 
 
 ```
@@ -922,7 +919,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as no!
+h: うるさいうるさいわかった！！断るにしとくから！！
 
 (#act1f)
 
@@ -933,8 +930,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chronic loneliness increases our cortisol levels as well as risk for cardiovascular disease and stroke!
-
+b: 慢性的な孤独はコルチゾールレベルを上げて、心血管疾患と脳卒中のリスクが高くするんだよ！ 
 ```
 hong({mouth:"shock", eyes:"shock"});
 attack("18p", "harm");
@@ -943,7 +939,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: タバコ。　一日15本分。
 {{/if}}
 
 ```
@@ -952,7 +948,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to yes! God!
+h: うるさいうるさいわかった！！OKって言っとくから！！もう！！
 
 (#act1f)
 
@@ -963,14 +959,14 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: All our problematic tweets have come back to roost!
+b: ほらっ！！陰口ツイートぜーーーんぶこっちに返ってきたじゃん！！
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: We're gonna get called out and cancelled and dragged with a rope on horseback down the information superhighway!
+b: 俺たちこのままだと炎上して、活動停止して、情報スーパーハイウェイに連れてかれて、紐でズルズル引きずられるんだよ！！
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -985,7 +981,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: もう！！何でいっつもこんな感じなの？！！
 
 (#act1f)
 
@@ -996,14 +992,14 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're spreading disinformation! We're destroying trust in a free press!
+b: 俺たち偽情報を拡散してるんだよ！”報道の自由”の信用を裏切ってるんだよ！
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're the reason fascism will arise from the rubble of democracy!
+b: 俺たちみたいなやつのせいで、また民主主義からファシズムが台頭するんだよ！！
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1019,7 +1015,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 _.factcheck = true;
 ```
 
-h: Why are you like this?!
+h: もう！！何でいっつもこんな感じなの？！
 
 (#act1f)
 
@@ -1030,13 +1026,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do you want to have a pretzel for a spine?! Stop hunching over your screen!
+b: 背骨がプレッツェルになってほしいの？！猫背で画面ばっかり見んなよ！！
 
 ```
 bb({body:"meta"});
 ```
 
-b: That means you too.
+b: あんたもだぞ。
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1052,7 +1048,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: もう！！何でいっつもこんな感じなの？！
 
 (#act1f)
 
@@ -1060,27 +1056,27 @@ h: Why are you like this?!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: うーん...でもめっちゃ楽しそう...
 
-h: Maybe I shouldn't have ignored the invite?
+h: やっぱり無視しなきゃよかったかな？
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, we're still party poopers.](#act1e_ignore_continue)
+[無視し続けとこう。行っても台無しにする。](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[わかった。やっぱりOKって言おう。](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[わかった。やっぱり断ろう。](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
 `hong({eyes:"annoyed"});`
 
-h: It's kinda rude to keep ignoring them though, no?
+h: え？でも、無視するのは失礼じゃない？
 
 `bb({eyes:"normal_right"});`
 
-b: Well other people always ignore *us*, so
+b: えっ、でもみーんな *僕たち* のこと無視するじゃん。
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1091,7 +1087,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: so let's just call it even.
+b: だから、どっちにしても同じでしょ。
 
 (#act1f)
 
@@ -1099,9 +1095,9 @@ b: so let's just call it even.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: You're... letting me have fun?
+h: えっ...行ってもいいって...言ってるの？
 
-b: Well, I mean, loneliness *can* kill us.
+b: あ...うん。だって孤独が僕たちを殺す *かもしれない* し。
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1111,7 +1107,7 @@ b: Well, I mean, loneliness *can* kill us.
 
 `bb({eyes:"narrow"});`
 
-b: It's too crowded. Crowds are dangerous.
+b: 人がいっぱいすぎる。危険だよ。
 
 (#act1e_yes_changetono)
 
@@ -1123,60 +1119,60 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Whatever. New Tinder notification.
+h: もうどうでもいいや。あっ、Tinderになんかきた。
 
 `bb({eyes:"uncertain"})`
 
-b: What, that hookup app?
+b: えっ、あのマッチングアプリの？
 
 `hong({eyes:"annoyed"})`
 
-h: It's not a hookup app, it's just a way to meet new peopl--
+h: う、うううん！違う！マッチングアプリじゃないよ！ただ新しい人と会う方法のーーー
 
 `bb({eyes:"narrow"})`
 
-b: It's a hookup app.
+b: マッチングアプリでしょ。
 
 ```
 hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, I got a match! They look cute!
+h: あっ！良い相手見ーっけ！うわ〜めっちゃ可愛い！
 
 ```
 bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: Please don't ruin this for m--
+h: 絶っ対雰囲気台無しにしなーーー
 
 ```
 bb({body:"panic"});
 Game.OVERRIDE_TEXT_SPEED = 2.0;
 ```
 
-b: DANGER DANGER DANGER DANGER DANGER DANGER
+b: 危険だ危険だ危険だ危険だ危険だ危険だ危険だ危険だ危険だ
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[We're being *used* by other people.](#act1f_used_by_others)
+[俺たち、誰かに *使われてんだよ* ！](#act1f_used_by_others)
 
-[We're just *using* other people.](#act1f_using_others)
+[俺たち、誰かを *使ってんだよ* 。](#act1f_using_others)
 
-[YOUR MATCH IS A SERIAL KILLER](#act1f_killer)
+[俺たちのマッチング相手、殺人鬼だぞ](#act1f_killer)
 
 # act1f_used_by_others
 
 `bb({body:"point_crotch", eyes:"normal", mouth:"normal"})`
 
-b: Random hookups may be able to fill the hole down there,
+b: ランダムなマッチングは、寂しさを満たしてくれるかもしれない...
 
-b: but they can never fill the hole...
+b: でも...決して埋めれないよ。
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
-b: in *here*.
+b: *ここ* の穴だけはね。
 
 (...1000)
 
@@ -1185,7 +1181,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is WE'RE GOING TO DIE ALONE
+b: 要するに　僕たち孤独死するんだよ
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1202,7 +1198,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: You think other people's genitals are Pokémon for us to collect?
+b: 他人の性器は僕たちがポケモンみたいに集める物だと思ってんの？
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1216,7 +1212,7 @@ Game.FORCE_TEXT_DURATION = 1000;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: ♫ (pokemon theme song)-
+b: ♫ (ポケモン外国版テーマソング　"Gotta Catch 'Em All!")-
 
 (...5600)
 
@@ -1225,7 +1221,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ I wanna be, the ^slut^ti-est-
+b: ♫ 私は、最高に^エッチ^な〜
 
 (...500)
 
@@ -1234,7 +1230,7 @@ bb({eyes:"narrow", mouth:"small"});
 Game.FORCE_TEXT_DURATION = 2100;
 ```
 
-b: ♫ Like no one ever was-
+b: ♫ 女〜になりたい〜
 
 (...1500)
 
@@ -1243,7 +1239,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ Thighs n' ^ass^, voluptuous breast-
+b: ♫ 太ももとお尻、 むちむち ^おっぱい^〜
 
 (...500)
 
@@ -1252,7 +1248,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ with sweaty ^dick^ and balls!-
+b: ♫ ^ちんこ^と^タマタマ^〜
 
 (...1000)
 
@@ -1261,7 +1257,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ PERVY-MON! GOTTA CA-
+b: ♫ 変態モン！ ゲットだーーー
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1271,7 +1267,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is we're a manipulative creep.
+b: 要するに僕たちは相手を巧みに操るキモいやつなんだよ。
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1289,19 +1285,19 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: They'll trap you in a well and force-feed you white bread to fatten you up so they can wear your skin like a suit!
+b: あいつら、君を井戸にぶち込んで、白パンを強制的に食べさせて、君をプクプク太っちょにして、皮膚をスーツみたいにきるよ！！
 {{/if}}
 
 {{if _.parasite}}
-b: They'll bludgeon you with a pomodoro timer and say "YOU SHOULDA BEEN MORE PRODUCTIVE YOU PARASITE"
+b: あいつら、君をポモドーロテクニックを強要して、「お前、もっと仕事するべきだったぞこの寄生虫め！！」て言うよ！！
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: They'll tear your flesh to gory confetti, turn your entrails into streamers, and mix your blood into a punch bowl!
+b: あいつら、君をバラバラにしてR18級の紙吹雪にして、内臓を垂れ幕にして、そして血をパンチボールに混ぜるぞ！！
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: How's THAT for a party invite?!
+b: こんなパーティーの招待、どうだよ？！
 {{/if}}
 
 ```
@@ -1328,44 +1324,44 @@ h: ...
 
 (...500)
 
-h: i'm so sick of this game.
+h: もうこんなゲームうんざり。
 
 (...700)
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 h:
-{{if _.fifteencigs}}"loneliness will kill us"... {{/if}}
-{{if _.parasite}}"we're a society-parasite"... {{/if}}
-{{if _.whitebread}}"don't eat that, it'll kill us"... {{/if}}
-{{if _.subtweet}}"they're talking behind our back"... {{/if}}
-{{if _.badnews}}"the world is burning"... {{/if}}
-{{if _.hookuphole}}"we'll die alone"... {{/if}}
-{{if _.serialkiller}}"they're a serial killer"... {{/if}}
-{{if _.catmilk}}"cats can't digest milk"... {{/if}}
-{{if _.pokemon}}a ^crappy^ parody song... {{/if}}
+{{if _.fifteencigs}}"孤独は私を殺すかも？"... {{/if}}
+{{if _.parasite}}"僕たちは社会的寄生虫だ？"... {{/if}}
+{{if _.whitebread}}"食べないで？僕たちを殺すかも？"... {{/if}}
+{{if _.subtweet}}"あいつら陰口言ってるよ？"... {{/if}}
+{{if _.badnews}}"世界が燃えている？"... {{/if}}
+{{if _.hookuphole}}"孤独死する？"... {{/if}}
+{{if _.serialkiller}}"あいつら殺人鬼だぞ？"... {{/if}}
+{{if _.catmilk}}"猫はミルクを消化できない？"... {{/if}}
+{{if _.pokemon}} ^クソ^みたいな替え歌... {{/if}}
 
-h: i just want to live my life.
+h: 私は... 私の人生を生きたい。
 
-h: i just want to be free from all this... pain.
+h: 私はこの... 苦痛から解放されたい。
 
 `bb({eyes:"look_sad"});`
 
-b: Hey... human...
+b: えっと... ニンゲン...
 
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
-b: It'll be okay.
+b: 大丈夫。
 
 (...600)
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: As your loyal guard-wolf, I'll always keep an eye out for danger, and do my best to keep you safe.
+b: 君に忠実な番人オオカミとして、僕は危険を察知して、できる限り君を守るよ。
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
-b: I promise.
+b: 約束するから。
 
 (...600)
 
@@ -1374,29 +1370,29 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Last app. Instagram. What you got?
+h: 最後。インスタ。何があるかな。。。？
 
 `hong({eyes:"sad"});`
 
-h: It's... more party pictures.
+h: パーティーの写真だ。もっと投稿されてる。。。
 
 `hong({mouth:"sad"});`
 
-h: Everyone looks so happy. Free from worry. Free from anxiety.
+h: みんな嬉しそう。心配から自由で。フアンから自由で。。。
 
 `hong({mouth:"anger"});`
 
-h: God, why can't I be like them? Why can't I just be *normal?*
+h: ねえ。何で私はみんなのようになれないの？もっと *普通* になれないの？！
 
 `bb({eyes:"normal_right"});`
 
-b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
+b: パーティーといえば、週末に誘われたのだけど。。。僕、決めた。:
 
 `bb({eyes:"normal"});`
 
-[We should go.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
+[僕たちはパーティーに行こう.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[We should not go.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[僕たちはパーティーに行かないでおこう.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1412,39 +1408,39 @@ b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
 
 # act1h
 
-b: We sh--
+b: 僕たちはーーー
 
 ```
 bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *^FUCK^.*
+h: *^くそ^。*
 
 `hong({body:"2_you"});`
 
-h: YOU.
+h: がっ。
 
 (...500)
 
-b: w
+b: え
 
 (...1500)
 
 `bb({eyes:"wat_2"});`
 
-b: wha?
+b: えっ?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: I'm going to say YES to that party,
+h: 私はあの招待に はい って答える。
 
 {{if _.act1g=="go"}}
-h: NOT because you want me to, but because *I* want to.
+h: あんたが行かせたいからじゃなくて、*私* が行きたいから行く。
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Precisely BECAUSE you don't want me to.
+h: あんたが行かせたくないから、私は行く。
 {{/if}}
 
 ```
@@ -1452,14 +1448,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: You're NOT in control of me.
+h: あんたは、私をコントロールできないから。
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Now excuse me while I eat this delicious sandwich in ^goddamn^ peace.
+h: じゃあこの ^くそ^ 平和の中でこのおいしいサンドウィッチを食べさして。
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1497,11 +1493,11 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[AHHHH WE'RE GONNA DIE](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[あああっっ俺ら死んじゃうううう](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH EVERYONE HATES US](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[あああっっみんな俺らのこと嫌ってるうううう](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH WE'RE HORRIBLE PEOPLE](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[あああっっ俺らダメダメ人間だああああ](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1510,7 +1506,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE GONNA DIE AAAAAAHHHHHHH
+b: あああっっ俺ら死んじゃうううううううっっっ
 
 ```
 hong({body:"3_defeated1"});
@@ -1528,7 +1524,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH EVERYONE HATES US AAAAAAHHHHHHH
+b: あああっっみんな俺らのこと嫌ってるうううううっっっ
 
 ```
 hong({body:"3_defeated1"});
@@ -1546,7 +1542,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE HORRIBLE PEOPLE AAAAAAHHHHHHH
+b: あああっっ俺らダメダメ人間だあああああああっっっ
 
 ```
 hong({body:"3_defeated1"});
@@ -1564,39 +1560,39 @@ bb({mouth:"smile_lock", eyes:"smile", body:"normal"});
 music('battle', {volume:0.5});
 ```
 
-n: CONGRATULATIONS
+n: よくできました！！
 
 (...500)
 
-n: YOU'VE SUCCESSFULLY PROTECTED YOUR HUMAN'S PHYSICAL + SOCIAL + MORAL NEEDS
+n: あなたは　ニンゲンの　身体的 + 社交的 + 道徳的な　ニーズを　無事に　守りました！！
 
-n: WHY, LOOK HOW GRATEFUL THEY ARE!
+n: ほらっ　見てください！　と〜っても　感謝してる　でしょう？！
 
 (...500)
 
-n: NOW THAT THEIR ENERGY IS ZERO, YOU CAN DIRECTLY CONTROL THEIR ACTIONS
+n: ニンゲンの　エネルギーを　ゼロに　したので、あなたは　ニンゲンを　直接　コントロール　できます！！
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: PICK YOUR ENDING MOVE
+n: 最後の　技を　選べ
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *FINISH THEM*
+n: *トドメを　刺せ*
 
-[{FIGHT: Punish your stressful phone!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{戦う：ストレスだらけのスマホを罰せよ！！}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Curl up in a ball and cry!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{逃げる：体をボールにして泣け！！}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Your phone was giving you a panic attack!
+b: 君のスマホは君に発作を起こしてたんだ！！
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg and Co are hijacking your mental health for venture capitalist money!
+b: ザッカーバーグとその一味が君の精神的健康をハイジャックしてベンチャーキャピタル・マネーに出資しちゃうよ！！
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1604,7 +1600,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Punish your phone! Destroy it! Kill it!
+b: スマホを罰するんだ！！ぶっ壊せ！！ぶっ殺せ！！
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1613,7 +1609,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL I--
+b: ぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺せぶっ殺ーーー
 
 (#act1j)
 
@@ -1621,7 +1617,7 @@ b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL 
 
 `bb({eyes:"fear", mouth:"normal"})`
 
-b: The whole world is filled with danger!
+b: この世界危険まみれなんだよ！！
 
 ```
 bb({body:"fear"});
@@ -1629,7 +1625,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do like the armadillo! Curl up into a ball for self-defense!
+b: アルマジロみたいになれ！！ ボールみたいに丸まって自分を守れ！！
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1638,10 +1634,11 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CR-- 
+b: 丸まって泣け丸まって泣け丸まって泣け丸まって泣け丸まって泣け丸まって泣け丸まって泣け丸まって泣け丸まって泣け丸まって泣け丸まって泣ーーー
 
 (#act1j)
 
 # act1j
 
 `SceneSetup.act1_outro()`
+
