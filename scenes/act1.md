@@ -1257,7 +1257,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ 変態モン！ ゲットだーーー
+b: ♫ 変態モン！ GETだーーー
 
 ```
 Game.FORCE_CANT_SKIP = false;
