@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: そして こいつは ニンゲン の フアン　だ
+n: そして こいつは ニンゲン の フアン だ
 
-n: _君_　は　フアン だ
+n: _君_ は フアン だ
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -28,13 +28,13 @@ h: あっ！ またここに戻ってきたの？
 
 `hong({eyes:"0_neutral"})`
 
-n: 君の　目的は　ニンゲン を　*危険*　から　守る　ことだ
+n: 君の 目的は ニンゲン を *危険* から 守る ことだ
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
 n: それどころか、この ゲームを リプレイ してる 時点で *危険* に 陥ってる！！
 
-n: ほらっ！！　早く 警告 してっ！！
+n: ほらっ！！ 早く 警告 してっ！！
 
 ```
 sfx("squeak");
