@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: そして こいつ は ニンゲン の フアン　だ
+n: そして こいつは ニンゲン のフアンだ
 
-n: _君_　は　フアン　だ
+n: _君_ はフアンだ
 
 (#act1_normal)
 
@@ -73,7 +73,7 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: 君の　目的は　ニンゲン　を　*キケン*　から　守ることだ
+n: 君の目的は ニンゲン を*キケン*から守ることだ
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
