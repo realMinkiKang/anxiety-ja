@@ -256,7 +256,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: *恐怖：無愛と孤独*　を発動した！！
+n: *恐怖：無愛と孤独* を発動した！！
 
 (#act1b)
 
