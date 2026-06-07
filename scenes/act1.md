@@ -8,7 +8,7 @@ SceneSetup.act1();
 
 n: そして こいつは ニンゲン の フアン だ
 
-n: _君_     はフアンだ
+n: _君_ はフアンだ
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -186,7 +186,7 @@ h: あー　まっただ、私のオオカミがまーたきたよ。 わあー�
 
 `hong({eyes:"0_neutral"})`
 
-n: 君の目的は ニンゲン を　*危険*　から守ることだ
+n: 君の目的は ニンゲン を*危険*から守ることだ
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
