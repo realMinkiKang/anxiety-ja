@@ -8,7 +8,7 @@ SceneSetup.act1();
 
 n: そして こいつは ニンゲン の フアン だ
 
-n: _君_ は フアン だ
+n: _君_は フアンだ
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
