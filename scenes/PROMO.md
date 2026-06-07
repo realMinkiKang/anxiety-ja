@@ -73,7 +73,7 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: 君の目的はニンゲンを*危険*から守ることだ
+n: 君の 目的は ニンゲン を *危険* から 守ることだ
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
