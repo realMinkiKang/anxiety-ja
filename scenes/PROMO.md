@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: こいつ は　ニンゲン だ
+n2: こいつ は ニンゲン だ
 
 (...600)
 
