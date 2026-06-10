@@ -23,14 +23,14 @@
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" about that horrible thing happening somewhere?
+s: ねえ、あの最悪なことが起きてるっていう「ニュース記事」、見た？
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: あ、あの...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -38,14 +38,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: God I hate the news. It's all sensationalism and clickbait.
+a: ニュースって本当嫌いだわ。全部センセーショナリズムとクリックベイトじゃん。
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: い...いいパーティーだね...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
+s: まあそうだけど、結局インセンティブに従ってるだけだよ。*本当の*問題はクリックベイトをクリックする人たちじゃん。
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Who would retweet a terrible news story, and make all their friends feel bad?
+s: 最悪なニュース記事をリツイートして、フォロワー全員を嫌な気持ちにさせるって、どんな人間よ？
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: ほんとそれな〜。
 
 (#act2-preamble-end)
 
@@ -78,14 +78,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" going viral?
+s: ねえ、バズってるあの「ニュース記事」、見た？
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: あ、あの...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -93,14 +93,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Yeah, totally fake. Who would fall for that and retweet it?
+a: デマじゃん完全に。あれを信じてリツイートする人って何なの？
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: い...いいパーティーだね...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriously dude. Like, hello, open up Google and factcheck first?
+s: ほんとにね。Googleで事実確認してからにしろよって感じ。
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: ほんとそれな〜。
 
 (#act2-preamble-end)
 
@@ -127,14 +127,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: Like I was saying, the Meme Industrial Complex exploits cats.
+s: さっきも言ったけど、ミームの工業複合体って猫を搾取してるよね。
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: あ、あの...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +142,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elaborate on this thesis.
+a: その論文、詳しく聞かせて。
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: い...いいパーティーだね...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,13 +157,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
+s: 昨日、誰かが猫がミルク飲んでるGIFをリツイートしてたんだよね。
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
+s: 猫ってそれ消化できないのに！*動物虐待*をリツイートするって何なの？
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,7 +171,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: ほんとそれな〜。
 
 (#act2-preamble-end)
 
@@ -182,14 +182,14 @@ a: Ugh, I know right?
 publish("act2",["dee",1]);
 ```
 
-s: So yeah they never replied back!
+s: で、結局返信来なかったんだよね！
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: あ、あの...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,14 +197,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Even though you both matched each other on Tinder?
+a: お互いTinderでマッチしてたのに？
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: い...いいパーティーだね...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -229,7 +229,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
+s: わかんない！*殺人鬼*だとでも思われた？ 疑い深すぎでしょ。
 
 ```
 publish("act2",["party_hunter",1]);
@@ -237,7 +237,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: ほんとそれな〜。
 
 (#act2-preamble-end)
 
@@ -249,9 +249,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
+s: わかんない！ワンナイトじゃ心の穴は埋められないとか思ってんのかな？
 
-s: Stop being such a prude! Open your mind, then open your legs!
+s: そんなに堅いこと言わないでよ！もっと広い心で、広い脚でいこうよ！
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +259,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: ほんとそれな〜。
 
 (#act2-preamble-end)
 
@@ -271,7 +271,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
+s: わかんない！そんなに好みじゃないけど、いい獲物だったのにな！
 
 ```
 publish("act2",["party_hunter",1]);
@@ -279,7 +279,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Gotta Catch 'Em All!™
+a: ゲットだぜ！™
 
 (#act2-preamble-end)
 
@@ -302,25 +302,25 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 n: ROUND TWO: *FIGHT!*
 
-[Oh no they all hate us!](#act2a_social)
+[みんな私たちのこと嫌ってる！！](#act2a_social)
 
-[Were you *ogling* the redhead?](#act2a_perv)
+[赤毛の人をじろじろ見てたでしょ？](#act2a_perv)
 
-[Hey, let's talk about the meaning of life.](#act2a_meaning)
+[ねえ、人生の意味について話しようよ。](#act2a_meaning)
 
 # act2a_social
 
 `bb({eyes:"sad"})`
 
-b: We're bringing down the mood of this party by being such a sad lump!
+b: こんな暗い気持ちでいたら、パーティーの雰囲気ぶち壊しだよ！
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: We're killing the good vibes! We're committing first-degree vibe-murder!
+b: 良い空気を殺してる！ファーストクラスの雰囲気殺しだ！！
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Human, we have to leave *now* before--
+b: ニンゲン、今すぐここを出ないとーーー
 
 ```
 _.a2_first_danger = 'social';
@@ -333,15 +333,15 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: They're more attractive than us, which means if we even *look* at them, then--
+b: あの人、私たちより魅力的だから、*見るだけ*でもーーー
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: WE'RE CREEPS
+b: 変態だ！！
 
 `bb({body:"normal"})`
 
-b: We're creepy, evil, bad bad bad terrible terrible perv--
+b: キモくて、最悪で、ダメダメで、ひどいひどいひどい変態でーーー
 
 ```
 _.a2_first_danger = 'perv';
@@ -354,31 +354,31 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: At the end of it all, what can we possibly do that really matters? 
+b: 結局のところ、本当に意味のあることなんて何かある？
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
+b: 人類への貢献？偉大な業績もオジマンディアスのように朽ちていく。愛？死が二人を引き裂く。
 
 `bb({eyes:"sad_r"})`
 
-b: And how much death there is! *We* will die. *Our loved ones* will die.
+b: そして死というものは何と多いことか！*私たち*も死ぬ。*大切な人たち*も死ぬ。
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
+b: 熱力学第二法則によれば、*宇宙そのもの*さえ死ぬんだよ！！
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
+b: 「死があるから生を大切にできる」って？それは「奴隷制があるから自由を大切にできる」と同じだよ！
 
 `bb({body:"one_up"})`
 
-b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
+b: 「自分で意味を作ればいい」って？それはカルトや陰謀論者がやることじゃん！
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
+b: 人生に意味はない、死に意味はない、*意味*にさえ意味がない！一介の魂にはどうすればーーー
 
 ```
 _.a2_first_danger = 'meaning';
@@ -395,7 +395,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... can you hear me, human?
+b: えっと...聞こえてる、ニンゲン？
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -403,23 +403,23 @@ b: ...
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *GASP*
+b: *ハッ*
 
 `bb({mouth:"small_talk"})`
 
-b: I MUST WARN YOU ABOUT...
+b: 警告しなきゃ！...
 
-[*More* of the same danger!](#act2b_louder)
+[*もっと*同じ危険について！](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2b_different_social)
+[*別の*社交的な危険について！](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2b_different_moral)
+[*別の*道徳的な危険について！](#act2b_different_moral)
 {{/if}}
 
-[You're ignoring danger! That's dangerous!](#act2b_ignore)
+[危険を無視してる！それ自体が危険だよ！](#act2b_ignore)
 
 # act2b_louder
 
@@ -441,18 +441,18 @@ b: I MUST WARN YOU ABOUT...
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
+b: 感情は伝染する！だから出て行かないと、精神病をみんなにうつすことになるよ！！
 
-b: You'll create a deadly outbreak of SAD LUMP SYNDROME
+b: 致死的な「暗い気持ち症候群」の大流行が起きる！
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
+b: ここを出て、Netflixとフードデリバリーで永遠に自分を隔離しなきゃ！
 
 ```
 _.a2_second_danger = 'netflix';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "a quarantine";
+_.a2_hoodie_callback = "自己隔離";
 ```
 
 (#act2c)
@@ -461,7 +461,7 @@ _.a2_hoodie_callback = "a quarantine";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
+b: 変態になるな。法律違反だぞ！！
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -486,16 +486,16 @@ sfx("gravel");
 
 (...501)
 
-b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
+b: 変態法第74条第5項：（1）以下を見た者は（a）あの筋肉質な肩（b）あの丸いお尻（2）以下の名称を付される
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "A BIG DISGUSTING TRASH PERVERT"
+b: 「超絶キモい最悪変態野郎」
 
 ```
 _.a2_second_danger = 'law';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "the law";
+_.a2_hoodie_callback = "法律";
 ```
 
 (#act2c)
@@ -504,28 +504,28 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
+b: 実は、崇高な目的を見つけたとしても、*それでも*全部台無しにできるんだよ！
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel wanted world peace and for cultures to understand each other. So he decided to make travel easier.
+b: アルフレッド・ノーベルは世界平和と文化間の相互理解を望んでた。だから移動を楽にしようとした。
 
 `bb({eyes:"normal_r"})`
 
-b: So he needed a way to cheaply create train tunnels. So he invented a new material called "dynamite"...
+b: そのために鉄道トンネルを安く掘る方法が必要だった。だから「ダイナマイト」という新素材を発明したんだ...
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: which was used in World War I to KILL MILLIONS OF PEOPLE
+b: それが第一次世界大戦で何百万人もの人を殺すために使われた
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLING RIGHT NOW
+b: バタフライ効果だよ、ニンゲン！今この瞬間、君は何人を偶然殺してるんだろう！
 
 ```
 _.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "World War I";
+_.a2_hoodie_callback = "第一次世界大戦";
 ```
 
 (#act2c)
@@ -536,24 +536,24 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: Actually, you know what's worse than no-one liking you? *Everyone* liking you.
+b: 実は、誰にも好かれないよりもっとひどいことがある。*みんなに*好かれることだよ。
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: That is, becoming one of *these* pleasure-chasing party animals.
+b: つまり、*こういう*快楽だけ追いかけるパーティー好きになるってこと。
 
 `bb({body:"normal", mouth:"small"})`
 
-b: A shallow life with shallow friends who only know the shallow you!
+b: 薄っぺらな友達と薄っぺらな自分だけの、薄っぺらな人生！
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Human, we need to run away from these pleasure-zombies before they turn us into one of them!
+b: ニンゲン、この快楽ゾンビたちに感染される前に逃げなきゃ！
 
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombies";
+_.a2_hoodie_callback = "ゾンビ";
 ```
 
 (#act2c)
@@ -564,24 +564,24 @@ _.a2_hoodie_callback = "zombies";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: People are dying in famines and genocides *right now* and we're just partying!
+b: 今この瞬間も飢饉や虐殺で人が死んでるのに、私たちはパーティーしてる！
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: A wise person once said, "the only thing necessary for the triumph of evil is for good folks to do nothing."
+b: ある賢人が言った。「悪が栄えるために必要な唯一のことは、善良な人々が何もしないことだ」
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: WE'RE DOING NOTHING.
+b: 私たちは何もしてない。
 
 `bb({mouth:"small"})`
 
-b: BY PARTYING, WE'RE HELPING *HITLER*.
+b: パーティーすることで、私たちは*ヒトラー*を助けてる。
 
 ```
 _.a2_second_danger = 'hitler';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "Hitler";
+_.a2_hoodie_callback = "ヒトラー";
 ```
 
 (#act2c)
@@ -592,20 +592,20 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: You think you're safe just because you took the batteries out of the carbon monoxide detector?
+b: 一酸化炭素検知器の電池を抜いたからって安全だと思ってる？
 
 `bb({eyes:"suspect_r"})`
 
-b: You won't even smell the poison! You'll just get sleepy and then you'll--
+b: 毒なんて臭わないんだよ！眠くなるだけで、そのままーーー
 
 `bb({body:"scream_c_1"})`
 
-b: DIEEEEEEEEEEEEEEEEEE
+b: 死ぬぞおおおおおおおおおおおおおおおおおお
 
 ```
 _.a2_second_danger = 'ignore';
 _.a2_attack_2 = "harm";
-_.a2_hoodie_callback = "carbon monoxide";
+_.a2_hoodie_callback = "一酸化炭素";
 ```
 
 (#act2c)
@@ -621,29 +621,29 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh thank goodness human, I think you can hear me again!
+b: よかった、ニンゲン、また聞こえてる！
 
 `bb({eyes:"closed", body:"point"})`
 
-b: I SHALL WARN YOU ABOUT...
+b: 警告しなきゃ！...
 
 {{if _.a2_first_choice=="louder"}}
-[*Even more* of the same danger!](#act2c_louder)
+[*さらにもっと*同じ危険について！](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[*More* of the same danger!](#act2c_louder)
+[*もっと*同じ危険について！](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2c_different_social)
+[*別の*社交的な危険について！](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2c_different_moral)
+[*別の*道徳的な危険について！](#act2c_different_moral)
 {{/if}}
 
-[Did you check that punch before drinking?](#act2c_punch)
+[そのパンチ、飲む前に確認した？](#act2c_punch)
 
 #act2c_louder
 
@@ -675,19 +675,19 @@ b: I SHALL WARN YOU ABOUT...
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: Actually, Netflix & food delivery isn't quarantined enough! We'd still infect the delivery person!
+b: Netflixとフードデリバリーじゃ、まだ隔離が足りない！デリバリーの人にうつしちゃうよ！
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: We need to move to the Canadian Yukon territories, and have our food delivered by drone!
+b: カナダのユーコン準州に引っ越して、ドローンで食料を配達してもらわなきゃ！
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: And then they'd have to sterilize the drone to rid it of our SAD LUMP GERMS
+b: そしてドローンを「暗い気持ち菌」から殺菌しないといけない
 
 `_.a2_attack_3 = "alone";`
 
-`_.a2_hoodie_callback = "a quarantine";`
+`_.a2_hoodie_callback = "自己隔離";`
 
 (#act2d)
 
@@ -716,17 +716,17 @@ sfx("gravel");
 
 (...501)
 
-b: The BIG DISGUSTING TRASH PERVERT shall be sentenced to 72 hours in one of those medieval public-humiliation devices
+b: 「超絶キモい最悪変態野郎」は中世の公開恥辱装置に72時間拘束される刑に処する
 
-b: unless they're secretly *into* that sort of thing
+b: ただしそれが*好き*な場合を除く
 
 `bb({body:"scream_a_1"})`
 
-b: because they're a BIG DISGUSTING TRASH PERVERT
+b: なぜなら「超絶キモい最悪変態野郎」だから
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the law";`
+`_.a2_hoodie_callback = "法律";`
 
 (#act2d)
 
@@ -734,23 +734,23 @@ b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: BUTTERFLY EFFECT! You're using a non-biodegradable plastic cup?
+b: バタフライ効果！生分解性じゃないプラカップを使ってる？
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BAM, A LANDFILL LEAKS POISON AND KILLS A KID
+b: バン、埋立地から毒が漏れて子供が死ぬ
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: You're sweating and your heart's pounding?
+b: 汗かいて心臓バクバクしてる？
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
+b: バン、医療制度が崩壊して何百万人も死ぬ
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the butterfly effect";`
+`_.a2_hoodie_callback = "バタフライ効果";`
 
 (#act2d)
 
@@ -758,19 +758,19 @@ b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: These pleasure-zombies will stumble towards you mumbling,
+b: この快楽ゾンビたちがうめきながら近づいてくる、
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: LIIIIIKES. LIIIIIIIIIIKES.
+b: いいね〜〜。いいね〜〜〜〜〜〜〜。
 
 `bb({body:"scream_a_1"})`
 
-b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
+b: そして*噛みついて*、脳なしバカに変えてしまうんだ！！
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "zombies";`
+`_.a2_hoodie_callback = "ゾンビ";`
 
 (#act2d)
 
@@ -778,19 +778,19 @@ b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS TH
 
 `bb({body:"scream_a_1"})`
 
-b: THE NAZIS ARE GOOSE-STEPPING BACK ON THE STREETS RIGHT NOW
+b: ナチスが今まさに街頭を行進してる！！
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Saying, *good thing those 'good folks' slacked off with stuff like 'relaxing' and 'self-care'!*
+b: 「良い人たちが『リラックス』や『自分を大切にする』でサボってくれてよかった！」
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Now our plans can go fourth, reich on schedule!*
+b: 「これで我々の計画が第三帝国のスケジュール通りに進む！」
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "Hitler";`
+`_.a2_hoodie_callback = "ヒトラー";`
 
 (#act2d)
 
@@ -798,19 +798,19 @@ b: *Now our plans can go fourth, reich on schedule!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: Come to think about it, do we know if this building *has* a monoxide detector?!
+b: そういえば、この建物に一酸化炭素検知器があるかどうか知ってる？！
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: What if we're all being poisoned *RIGHT NOW?*
+b: 今この瞬間、全員が毒に侵されてたら？！
 
 `bb({body:"scream_a_1"})`
 
-b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER AND EV--
+b: 死が近づいてることも気づかないまま。ただ永遠に存在しなくなるだけ、永遠に永遠にーーー
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "carbon monoxide";`
+`_.a2_hoodie_callback = "一酸化炭素";`
 
 (#act2d)
 
@@ -818,15 +818,15 @@ b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
-b: What if we're just *fundamentally incapable* of ever being loved, or loving another?
+b: 私たちって、愛されることも、誰かを愛することも、*根本的にできない*んじゃないかな？
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if something irreversibly broke inside of us a long time ago? Or never existed in us in the first place?
+b: ずっと前に中で何かが壊れてしまったか、最初からなかったのかも？
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: こわれてるこわれてるこわれてるこわれてるこわれてるーーー
 
 `_.a2_attack_3 = "alone";`
 
@@ -836,19 +836,19 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: What if we're just *fundamentally rotten?*
+b: 私たちって*根本的にダメな人間*なんじゃないかな？
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Others have an inner drive to do goodness, but we only do "good" out of guilt or shame, if at all.
+b: 他の人は善を行う内なる動力があるけど、私たちは罪悪感や羞恥心からしか「良いこと」をしない。
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if it's in our nature to hurt others? What if we can't be anything *other* than a burden to those close to us?
+b: 私たちの本質は人を傷つけること？近くにいる人の重荷にしかなれないのかも？
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: こわれてるこわれてるこわれてるこわれてるこわれてるーーー
 
 `_.a2_attack_3 = "bad";`
 
@@ -858,19 +858,19 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: I'm not being irrational. People *do* drug punch bowls. That is an actual thing that actually happens.
+b: 非合理じゃないよ。パンチボウルに薬を入れる人は実際にいる。本当にあることだから。
 
 `bb({eyes:"suspect"})`
 
-b: Human, does your head hurt? Are your limbs limp? I think we're dying.
+b: ニンゲン、頭痛い？手足がだるい？もしかして死にかけてるんじゃ。
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE DYING! WE'RE DYING WE'RE DYING WE'RE DYI--
+b: 死ぬぞ死ぬぞ死ぬぞ死ぬぞ死ぬーーー
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "punch bowls";`
+`_.a2_hoodie_callback = "パンチボウル";`
 
 (#act2d)
 
@@ -898,70 +898,70 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: F^AAACK^!
+h: くそ^っっっ^！
 
-h: F^ACK^ING F^ACK^-F^AKK^ITY *F^AAAAACK^*
+h: くそ^っ^くそ^っ^くそくそ*くそ^っっっっ^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Yay, human! I'm so happy you can hear me again!
+b: やった、ニンゲン！また聞こえてる！
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
-b: Why were you ignoring me?
+b: なんで無視してたの？
 
 `hong({body:"facepalm"})`
 
-h: Holy ^hell^, you absolute moron.
+h: まじかよ、この大バカ野郎。
 
 `hong({body:"facepalm_2"})`
 
-h: You know that Native American story?
+h: ネイティブアメリカンの話、知ってる？
 
-h: "There are two wolves inside you, one is hope, one is despair, which wolf wins? The one you feed."
+h: 「心の中に二匹の狼がいる。一匹は希望、一匹は絶望。どちらが勝つ？ 餌をやった方だ」
 
 ```
 hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: I was trying to *starve* you, you sadistic ^asshole^!
+h: あんたを*飢えさせようとしてた*のに、このサディストの^バカ^！
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Screw it, I'll do positive affirmations instead.
+h: もういい、ポジティブ・アファメーションにする。
 
-h: *I am loved. I am good. I am smart. I am beautiful. I am special.*
+h: *私は愛されている。私は善良だ。私は賢い。私は美しい。私は特別だ。*
 
 `bb({eyes:"suspect"});`
 
-[Golly, that's so narcissistic!](#act2d_narcissist)
+[うわ、めっちゃナルシストじゃん！](#act2d_narcissist)
 
-[Y'know affirmations were *disproven?*](#act2d_disproven)
+[アファメーションって*効果ないって証明されてる*んだけど？](#act2d_disproven)
 
-[omg don't credit random stories to indigenous folk](#act2d_racist)
+[ちょっと、先住民族の話を適当に引用しないで](#act2d_racist)
 
 # act2d_disproven
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: In fact, they actually *backfire* for people with low self-esteem! 
+b: 実は、自尊心が低い人には*逆効果*なんだよ！
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: It was a well-designed study – randomized controlled trial, experimenter was blinded as to who was in which group.
+b: よく設計された研究でね——ランダム化比較試験で、実験者はどのグループか知らない状態でやった。
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
-b: Results: if you already had low self-esteem, being asked to repeat affirmations makes you feel *worse* than if you'd said nothing at all!
+b: 結果：もともと自尊心が低い人がアファメーションを繰り返すと、何も言わなかった場合より*気分が悪くなる*んだって！
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Look it up on Google Scholar, human,
+b: Wood 2009, Psychological Science。Google Scholarで調べてみて、ニンゲン、
 
 `bb({body:"scream_b_1"})`
 
-b: THEN STOP SPREADING UNSCIENTIFIC FAKE NEWS
+b: そして非科学的なデマを広めるのをやめて！！
 
 ```
 hong({body:"attacked"});
@@ -977,19 +977,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: You *need* to humbly see your own flaws in order to grow as a person!
+b: 成長するためには自分の欠点を謙虚に認めないといけないんだよ！
 
 `bb({body:"two_up", eyes:"suspect"})`
 
-b: You can't spray air freshener over a moldy room! Covering up your flaws makes you worse in the long run.
+b: カビだらけの部屋に芳香剤を撒いても意味ない！欠点を隠したら長期的にはもっと悪くなる。
 
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
-b: Thankfully, I, as your loyal guard-wolf, can alert you to your flaws. And right now, it's-
+b: ありがたいことに、忠実な番人オオカミの僕が欠点を教えてあげる。今の欠点はーーー
 
 `bb({body:"scream_b_1"})`
 
-b: EVERYTHING. EVERYTHING IS WRONG
+b: 全部。全部ダメ
 
 ```
 hong({body:"attacked"});
@@ -1005,15 +1005,15 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: Native Americans are *actual people*, not some "noble savages" you can namedrop to make your fortune-cookie advice more *exotic*.
+b: ネイティブアメリカンは*実在する人々*であって、フォーチュンクッキーのアドバイスを*エキゾチック*にするために引用する「高貴な野蛮人」じゃないんだよ。
 
 `bb({eyes:"suspect_r"})`
 
-b: You're reducing individual persons & complex cultures to a Hallmark card! That's "benevolent racism"! 
+b: 個々の人々と複雑な文化をホールマークカードに還元してる！それは「善意の人種差別」だ！
 
 `bb({body:"scream_b_1"})`
 
-b: STOP BEING RACIST YOU SQUINTY-EYED JERK
+b: 人種差別はやめて！このひどい差別主義者！
 
 ```
 hong({body:"attacked"});
@@ -1027,45 +1027,45 @@ attack("10p", "bad");
 
 # act2e
 
-h: ^ASSDAMMIT^.
+h: ^くそ^っ。
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: You know what? You're *irrational*.
+h: ねえ、あんた、*非合理的*なんだよ。
 
-h: Everyone knows emotions are irrational! Especially fear!
+h: 感情なんて非合理的に決まってる！特に恐怖は！
 
 `hong({body:"facepalm_2"})`
 
-h: You're a useless evolutionary leftover, like my appendix or wisdom teeth!
+h: 虫垂とか親知らずみたいな、役立たずの進化の残骸じゃん！
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: ^Hell^, this whole wolf metaphor is stupid! You're just a bunch of neuro-chemicals in my head.
+h: ^てか^、オオカミのメタファー自体バカっぽい！あんたは私の頭の中の神経化学物質に過ぎないんだから。
 
 `hong({body:"cross", mouth:"cross"})`
 
-h: So why should I listen to a worthless, irrational, non-existent piece of ^shit^ like you?!
+h: なんで役立たずで、非合理的で、存在しない^クソ^みたいなあんたの言うことを聞かなきゃいけないの？！
 
 `bb({eyes:"sad", MOUTH_LOCK:true})`
 
 b: ...
 
-[Jeez, human. That's really hurtful.](#act2e_hurtful)
+[ひどい。本当に傷ついた。](#act2e_hurtful)
 
-[I'm a feeling. Feelings are valid.](#act2e_valid)
+[私は感情だよ。感情は大切にされるべきだよ。](#act2e_valid)
 
-[Human, we're *both* "just chemicals."](#act2e_rational)
+[ニンゲン、私たちは*どちらも*「ただの化学物質」だよ。](#act2e_rational)
 
 # act2e_hurtful
 
 `bb({body:"chest"})`
 
-b: I'm *part* of you, you know. When you say that, you're hurting *yourself*.
+b: 僕は*あなたの一部*なんだよ。そんなこと言ったら、*自分自身*を傷つけてる。
 
 `bb({body:"scream_a_1"})`
 
-b: Why are you hitting yourself, human? STOP HITTING YOURSELF.
+b: なんで自分で自分を叩くの、ニンゲン？やめてよ。
 
 ```
 music(null);
@@ -1082,23 +1082,23 @@ attack("10p", "harm");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"});`
 
-b: Your deepest motivations are dopamine, your richest joys are serotonin.
+b: 君の一番深い動機はドーパミン、一番豊かな喜びはセロトニン。
 
 `bb({body:"one_up"});`
 
-b: Your memories are synaptic weights, your reason is fault-prone electrical signals.
+b: 記憶はシナプスの重み、理性は誤りやすい電気信号。
 
 `bb({eyes:"normal", body:"normal"});`
 
-b: So if me being "just chemicals" means *I'm* irrational... then that means *you're* irrational!
+b: 僕が「ただの化学物質」だから*僕が*非合理的というなら、それは*君も*非合理的ってことだよ！
 
 `bb({body:"two_up", eyes:"shock"});`
 
-b: And if we're *both* irrational, then we'll *never* figure out how to be fulfilled and happy!
+b: 私たちが*どちらも*非合理的なら、どうすれば幸せになれるか*永遠に*わからない！
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKEN--
+b: こわれてるこわれてるこわれてるこわれてるーーー
 
 ```
 music(null);
@@ -1115,19 +1115,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
-b: Hang on... "they" say that feelings are valid, that you should always accept your emotions.
+b: ちょっと待って...「みんな」は感情は大切にすべき、常に感情を受け入れるべきって言う。
 
 `bb({eyes:"suspect_r"});`
 
-b: But "they" also say emotions are irrational, that emotions are not to be trusted.
+b: でも「みんな」は感情は非合理的で、信用すべきじゃないとも言う。
 
 `bb({eyes:"angry"});`
 
-b: Oh my gosh, "they" have been lying to us this whole time!
+b: ちょっと、「みんな」はずっと嘘をついてたんだ！
 
 `bb({body:"scream_a_1"})`
 
-b: "THEY" FEED US CONTRADICTIONS TO MAKE US DEPENDENT ON THE SELF-HELP INDUSTRIAL COMPLEX
+b: 「みんな」は自己啓発産業複合体に依存させるために矛盾を植え付けてる！！
 
 ```
 music(null);
@@ -1146,62 +1146,62 @@ attack("10p", "harm");
 
 h: ...
 
-h: I hate this. God it hurts so much I *hate* this.
+h: 嫌だ。本当につらい、*嫌だ*。
 
-h: I can't appease you. I can't ignore you. I can't fight you. 
+h: あんたをなだめることも、無視することも、戦うこともできない。
 
 `bb({eyes:"suspect"});`
 
-h: No matter what I do, I can't seem to get rid of yo--
+h: 何をしてもあんたを消すことがーーー
 
 `bb({body:"cry_1"});`
 
-b: Well maybe you're NOT *SUPPOSED* TO GET RID OF ME.
+b: そもそも消す必要が*ない*かもしれないよ。
 
 `bb({body:"cry_2"});`
 
-b: How do you think *I* feel, human?!
+b: *僕が*どんな気持ちか、わかる？！
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: I'm trying my best to be your guard-dog, but you keep seeing me as some Big Bad Wolf!
+b: 君の番犬になろうとしてるのに、君はずっと僕を大きな悪いオオカミだと思ってる！
 
-b: So I try even *harder* to alert you to danger! *More* danger! *Different* danger!
+b: だからもっと*必死に*危険を知らせようとする！*もっと*危険！*違う*危険！
 
 `bb({eyes:"cry_2"})`
 
-b: But no matter how hard I try to protect you, you *still* think I'm your enemy!
+b: どんなに守ろうとしても、君はまだ僕を敵だと思ってる！
 
 `bb({body:"cry_5"});`
 
-b: What am I doing wrong?!
+b: 僕は何が間違ってるの？！
 
 `bb({body:"cry_2"});`
 
-b: I *know* I suck at my job. But I'm *trying*, human!
+b: 僕はダメだってわかってる。でも*頑張ってる*んだよ、ニンゲン！
 
 `bb({body:"cry_3"});`
 
-b: ...I'm trying.
+b: ...頑張ってる。
 
 `bb({body:"cry_6", mouth:"right", eyes:"cry_r_1"});`
 
-b: You don't have to heed my warnings, or agree with me, or even *like* me.
+b: 僕の警告に従わなくていい。同意しなくていい。*好きじゃなくて*もいい。
 
 `bb({eyes:"cry_r_2"});`
 
-b: I just... all I want is for you to be patient with me.
+b: ただ...少しだけ、辛抱強くいてほしい。
 
 `bb({eyes:"cry_r_3"});`
 
-b: I just want for you to sit with me for a while, instead of turning away and--
+b: 背を向けないで、しばらく一緒にいてほしいだけーーー
 
 ```
 bb({eyes:"cry_r_4"});
 hong({body:"listen"});
 ```
 
-r: Hey.
+r: ねえ。
 
 ```
 hong({body:"look"});
@@ -1218,21 +1218,21 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Looks like you're caught in a fight with yourself, kid.
+r: 自分自身と戦ってるみたいだね。
 
 ```
 publish("act2",["party_hunter",3]);
 publish("act2",["party_hong",13]);
 ```
 
-h2: Was it that obvious?
+h2: そんなにわかりやすかった？
 
 ```
 publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
-r: You were, uh, mumbling at your hoodie about {{_.a2_hoodie_callback}} or something.
+r: えっと、パーカーに向かって{{_.a2_hoodie_callback}}についてぶつぶつ言ってたから。
 
 ```
 publish("act2",["party_hunter",13]);
@@ -1248,7 +1248,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: oh god i'm such a mess.
+h2: うわ、もう最悪だ私。
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1256,7 +1256,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Hey. You're not alone, friend. Anxiety's super common.
+r: ねえ。一人じゃないよ。不安って、すごく一般的なことだから。
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1264,38 +1264,38 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Heck, just yesterday, I heard someone on campus had a nervous breakdown and smashed their phone!
+r: 実は昨日、キャンパスで誰かが精神的に崩れてスマホを壊したって聞いたよ！
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Heck, just yesterday, I heard someone curled up into an armadillo ball and cried in public!
+r: 実は昨日、誰かがアルマジロみたいに丸まって公衆の面前で泣いてたって聞いたよ！
 {{/if}}
 
 ```
 publish("act2",["party_hunter",2]);
 ```
 
-r: Listen: I know what it's like to have that animal in your head.
+r: 聞いて：頭の中にあの動物がいる感覚、わかるよ。
 
 ```
 publish("act2",["party_hunter",8]);
 ```
 
-r: We *all* do. That's why I throw these parties every weekend, to forget our worries, forget that animal.
+r: みんなそう。だから毎週末パーティーを開いてる。心配事を忘れるために、あの動物を忘れるために。
 
 ```
 publish("act2",["party_hunter",9]);
 publish("act2",["party_hong",20]);
 ```
 
-h2: but my anxiety...
+h2: でも私の不安は...
 
 ```
 publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Don't worry, kid. I used to be like you. But then I found a little trick to get that negative voice to shut up forever...
+r: 大丈夫だよ。昔の私もそうだった。でも、あのネガティブな声を永遠に黙らせる方法を見つけたんだ...
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1325,14 +1325,14 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: My own specialty blend. It's a bit stronger than... well, anything legal really.
+r: 私の特製ブレンドだよ。合法なものより、まあ、かなり強いけど。
 
 ```
 publish("act2",["party_hunter",12]);
 publish("act2",["party_hong",24]);
 ```
 
-r: Bottoms up, ^bee-yatch^!
+r: 飲んで、この^バカ^！
 
 ```
 hong({body:"hold"});
@@ -1345,27 +1345,27 @@ publish("hp_show");
 
 (...3500)
 
-[Oh my God.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
+[ちょっと待って。](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is a bad coping mechanism.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
+[これは悪い対処法だよ。](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Don't take drinks from strangers.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
+[知らない人からの飲み物は受け取らないで。](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2g_1
 
-b: O--
+b: ちょーーー
 
 (#act2g)
 
 # act2g_2
 
-b: T--
+b: こーーー
 
 (#act2g)
 
 # act2g_3
 
-b: D--
+b: しーーー
 
 (#act2g)
 
@@ -1384,34 +1384,34 @@ hong({body:"forward", mouth:"forward"});
 bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 ```
 
-h: Mmm, what an exquisite palette!
+h: ふむ、なんと素晴らしい風味！
 
-h: A full-bodied flavor of "shut your mind up," with a subtle aftertaste of "never feel anything ever again"!
+h: 「頭を黙らせる」フルボディの味わいに、「もう二度と何も感じない」という微妙な後味！
 
-b: This is bad, human. This is really, really bad.
+b: まずい、ニンゲン。本当にまずいよ。
 
-[This is *actually* how addiction starts.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[これが*本当に*依存症の始まりなんだよ。](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[I *knew* the host was deeply messed up!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[やっぱりこのホスト、めちゃくちゃ終わってるじゃん！](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Also, they could have drugged that!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+[あと、薬盛られてたかもだよ！](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 
 # act2h_opt1
 
-b: This is *actu*--
+b: これが*本当ーーー*
 
 (#act2h)
 
 # act2h_opt2
 
-b: Also, they co--
+b: あと、薬ーーー
 
 (#act2h)
 
 # act2h_opt3
 
-b: I *knew* th--
+b: やっぱりーーー
 
 (#act2h)
 
@@ -1430,17 +1430,17 @@ hong({body:"back", mouth:"back"});
 bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 ```
 
-h: Delicious, *and* cheaper than therapy!
+h: おいしい、*しかも*セラピーより安い！
 
-b: HUMAN PLEASE STOP
+b: ニンゲン、やめて！！
 
-h: Hehehe!
+h: へへへ！
 
-h: And what are *you* gonna do about it, ^asshole^?
+h: で、あんたはどうするの、^バカ^？
 
-b: I'm so sorry, human.
+b: ごめん、ニンゲン。
 
-b: I'm going to have to use my SPECIAL ATTACK
+b: 必殺技を使わないといけない
 
 ```
 bb({body:"special_a"});
@@ -1467,9 +1467,9 @@ hong({body:"forward", mouth:"forward"});
 sfx("charging");
 ```
 
-h: What's this ^crap^?
+h: 何これ^ゴミ^？
 
-h: You're gonna yap more stupid *words* at me to--
+h: また^クソ^みたいな*言葉*で私をーーー
 
 ```
 bb({body:"special_c"});
@@ -1505,45 +1505,45 @@ setTimeout(function(){
 
 (...2500)
 
-h: WHAT THE ^HELL^ WAS THAT
+h: 一体なんだったの
 
-b: I'm sorry. I needed to show you the consequences.
+b: ごめん。結果を見せなきゃいけなかった。
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: I COULD *SEE* MY OWN CORPSE. I COULD *FEEL* THE SENSATION OF BEING ACTUALLY DEAD.
+h: 自分の死体が*見えた*。本当に死んでる感覚が*わかった*。
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: I COULD *SEE* EVERYONE'S LOOK OF DISGUST. I COULD *HEAR* ALL THE THINGS THEY SAID.
+h: みんなの嫌悪の顔が*見えた*。言われた言葉が全部*聞こえた*。
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: I COULD *HEAR* THE CRUNCHING OF RIBS. I COULD *TASTE* THE BLOOD IN THE AIR.
+h: 肋骨が砕ける音が*聞こえた*。空気の中の血の味が*した*。
 {{/if}}
 
-b: I'm sorry, human.
+b: ごめん、ニンゲン。
 
-n: *FINISH THEM*
+n: *トドメを刺せ*
 
-[{FIGHT: Punch the host.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{戦う：ホストを殴れ。}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Let's get out of here.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{逃げる：ここから出よう。}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
 `bb({ eyes:"angry" });`
 
-b: That psychopath was taking advantage of you.
+b: あいつは君を利用してたんだ。
 
-b: They were trying to corrupt you, make you as messed up as they are!
+b: 君を腐らせて、自分みたいにおかしくしようとしてた！
 
 `bb({ body:"yell_angry_1" });`
 
-b: Punch that jerk! Knock their friggin' lights out!
+b: あいつを殴れ！ぶっ飛ばせ！！
 
 `bb({ body:"final_1" });`
 
-b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THE--
+b: 殴れ殴れ殴れ殴れ殴れ殴れ殴れ殴れ殴れ殴れ殴れ殴れ殴れ殴れ殴れ殴ーーー
 
 `_.a2_ending = "fight";`
 
@@ -1551,15 +1551,15 @@ b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM 
 
 # act2j_flight
 
-b: I *knew* all these partygoers were deeply messed up. They all dull their pain with horrible things!
+b: やっぱりパーティーの人たちみんなおかしかった。みんなひどいもので痛みを麻痺させてる！
 
 `bb({ body:"yell_1" });`
 
-b: And they're tricking you into doing the same thing! They're corrupting you! We need to get out!
+b: そして君も同じことをさせようとしてた！君を腐らせようとしてる！逃げなきゃ！
 
 `bb({ body:"final_1" });`
 
-b: GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OU--
+b: 逃げろ逃げろ逃げろ逃げろ逃げろ逃げろ逃げろ逃げろ逃げろ逃げろ逃げろ逃げーーー
 
 `_.a2_ending = "flight";`
 
@@ -1588,7 +1588,7 @@ publish("act2",["party_hunter",14]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: You alright, kid?
+r: 大丈夫？
 
 `publish("act2",["party_hunter",13]);`
 
@@ -1620,7 +1620,7 @@ publish("act2",["dee",6]);
 publish("act2",["dum",6]);
 ```
 
-r: Y-you...
+r: き、君...
 
 ```
 publish("act2",["party_hunter",23]);
@@ -1630,22 +1630,22 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: are *kinky*.
+r: *刺激的*じゃん。
 
-r: I like that. Come to my party next weekend, cutie.
+r: 好きだよ。来週末のパーティーにもおいで。
 
 ```
 publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: ok bye, ciao, adios, au revoir
+h2: じゃあね、さよなら、バイバイ、アデュー
 
-r: The animal might have won today, but come back, and I'll mix something even stronger for you!
+r: 今日は動物が勝ったけど、また来てよ、もっと強いの作ってあげる！
 
-h2: sayōnara, auf wiedersehen, zài jiàn, shalom
+h2: さようなら、またね、再见、シャローム
 
-r: You and me, kid, we'll show that beast who's boss!
+r: 二人で、あの獣に誰が強いか見せてやろうよ！
 
 (#act2k_end)
 
@@ -1653,23 +1653,23 @@ r: You and me, kid, we'll show that beast who's boss!
 
 `publish("act2",["party_hong",36]);`
 
-h2: ok sorry i have to run
+h2: ごめん、ちょっと行かなきゃ
 
 `publish("act2",["party_hunter",16]);`
 
-r: ^Damn^ it. The animal won today, huh?
+r: ^くそ^。今日は動物が勝ったか。
 
 `publish("act2",["party_hunter",15]);`
 
-h2: no no, just, uh, gotta run a marathon. gotta go fast.
+h2: 違う違う、マラソン走らなきゃで。行かなきゃ。
 
 `publish("act2",["party_hunter",19]);`
 
-r: Come to my party next weekend, cutie. I'll mix something even stronger for you.
+r: 来週末のパーティーにもおいで。もっと強いの作ってあげる。
 
-h2: ok thanks gonna run run run run run
+h2: うんありがとう走る走る走る走る
 
-r: You and me, kid, we'll show that beast who's boss!
+r: 二人で、あの獣に誰が強いか見せてやろうよ！
 
 (#act2k_end)
 
@@ -1692,13 +1692,13 @@ sfx("whoosh");
 
 (...1000)
 
-b: Human! Are you okay?!
+b: ニンゲン！大丈夫？！
 
 ```
 publish("act2", ["act2_end","next"]);
 ```
 
-b: Gosh, that was *close.* We really could've--
+b: あぶなかった。本当にもう少しでーーー
 
 ```
 Game.clearText();
@@ -1716,17 +1716,17 @@ sfx("hit");
 
 (...1000)
 
-h: I'm coming back to the party next weekend.
+h: 来週末のパーティー、また行く。
 
-h: The next time we fight, I'm not just going to *defeat* you...
+h: 次に戦う時は、ただ*倒す*だけじゃなくて...
 
-h: I'm going to ^fuck^ing *kill* you.
+h: 完全に*殺す*から。
 
 ```
 Game.clearText();
 publish("act2", ["act2_end","next"]);
 sfx("concrete_step1");
-````
+```
 
 (...901)
 
